@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeal College Induri</title>
+<link rel="stylesheet" href="home.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+/* TOP BAR */
+.topbar{
+  background:#1f5a85;
+  color:white;
+  padding:8px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.topbar .links{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.topbar a{
+  color:white;
+  text-decoration:none;
+  font-size:13px;
+}
+
+.topbar a.highlight{
+  color:yellow;
+  font-weight:bold;
+}
+
+/* SOCIAL */
+.social{
+  display:flex;
+  gap:10px;
+  font-size:14px;
+}
+
+/* LOGO SECTION */
+.logo-section{
+  text-align:center;
+  padding:40px 20px;
+  background:#f5f5f5;
+}
+
+.logo-section img{
+  width:120px;
+  margin-bottom:10px;
+}
+
+.logo-section h1{
+  font-size:22px;
+  margin-top:10px;
+}
+
+.logo-section p{
+  font-size:13px;
+  color:#555;
+}
+
+/* NAVBAR */
+.hero img{
+  width:100%;
+  height:400px;
+  object-fit:cover;
+}
+
+/* SOCIAL FLOAT */
+.social-float{
+  position:fixed;
+  left:10px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.social-float div{
+  background:#1f5a85;
+  color:white;
+  padding:10px;
+  margin:5px 0;
+  text-align:center;
+  cursor:pointer;
+}
+
+/* CARDS */
+.cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  flex:1;
+  min-width:200px;
+  height:180px;
+  color:rgb(240, 235, 235);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+/* ICON */
+.icon{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+/* BUTTON */
+.card button{
+  margin-top:10px;
+  padding:6px 15px;
+  border:1px solid white;
+  background:transparent;
+  color:white;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+/* COLORS (same like your image) */
+.card1{
+  background:linear-gradient(45deg,#7b2ff7,#843b6c);
+}
+
+.card2{
+  background:linear-gradient(45deg,#396afc,#363b57);
+}
+
+.card3{
+  background:linear-gradient(45deg,#00c6ff,#34455a);
+}
+
+.card4{
+  background:linear-gradient(45deg,#f7971e,#5a5232);
+}
+
+.card5{
+  background:linear-gradient(45deg,#8e2de2,#3a2b58);
+}
+/* CHAT ASSISTANT */
+
+
+/* HIDE toggle by default (desktop) */
+
+</style>
+</head>
+
+<body style="background-color: black;">
+  
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="links">
+    <a class="highlight">OFF CAMPUS</a>
+    <a class="highlight">PAY FEES</a>
+    <a>VIRTUAL TOUR</a>
+    <a>NEWS & EVENTS</a>
+    <a>STUDENT CORNER</a>
+    <a>NSS</a>
+    <a>CAREERS</a>
+    <a class="highlight">ERP LOGIN</a>
+  </div>
+
+  <div class="social">
+    <span>🌐</span>
+    <span>📘</span>
+    <span>📸</span>
+  </div>
+</div>
+
+<!-- LOGO SECTION -->
+<div class="logo-section">
+  <img src="https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_avcdKZx.jpg">
+
+  <h1>ZEAL COLLEGE OF ENGINEERING & RESEARCH,(OFF CAMPUS) Induri PUNE</h1>
+  <p>An Autonomous Institute affiliated to SPPU</p>
+  <p>Accredited with A+ Grade by NAAC</p>
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+
+  <div class="logo">ZCOER</div>
+
+  <!-- TOGGLE -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <div class="main-menu" id="menu">
+    <ul>
+
+      <li>HOME</li>
+
+      <li class="dropdown">
+        <a href="principal.html" style="color: white;"> ABOUT</a>
+        <div class="dropdown-menu">
+        <ul>
+        
+          <li>Why Zeal</li>
+          <li>Vision & Mission</li>
+          <li>Principal Message</li>
+          <li>Founder Director's Message</li>
+          <li>Secretary's Message</li>
+          <a href="principal.html" style="color: #f5f5f5;"><li>From The Campus Head's Disk</a></li>
+          <li>Award and Recogination</li>
+        </ul>
+      </li>
+      
+      
+      <a href="addmission.html" style="color: white;"><li>ADMISSION</a></li>
+      <a href="department.html" class="dropdown-title" style="color: white;"><li>DEPARTMENT></a></li>
+      <li>ACADEMICS</li>
+
+      <li class="dropdown">
+        PLACEMENT
+        <ul class="dropdown-menu">
+         
+        </ul>
+      </li>
+      
+
+      <a href="contact.html" style="color: white;"><li>CONTACT</a></li>
+      <a href="ourgallery.html" style="color: white;"><li>GALLERY </a></li>
+
+    </ul>
+  </div>
+
+</div>
+<!-- HERO -->
+<!-- HERO SLIDER -->
+<div class="hero">
+  <img id="slider" class="fade" src="image12.png">
+
+  <div class="arrow left" onclick="prevSlide()">❮</div>
+  <div class="arrow right" onclick="nextSlide()">❯</div>
+</div>
+
+<!-- FLOAT SOCIAL -->
+<div class="social-float">
+  <div>f</div>
+  <div>📷</div>
+  <div>▶</div>
+</div>
+
+<!-- CARDS -->
+<div class="cards">
+
+  <div class="card card1">
+    <div class="icon">🎓</div>
+    <h3>ORBITX CLUB</h3>
+    <button>MORE INFO</button>
+  </div>
+
+  <div class="card card2">
+    <div class="icon">🏛️</div>
+    <h3>CAMPUS LIFE</h3>
+    <button>MORE INFO</button>
+  </div>
+
+  <div class="card card3">
+    <div class="icon">💼</div>
+    <h3>PLACEMENT</h3>
+    <button>MORE INFO</button>
+  </div>
+
+  <div class="card card4">
+    <div class="icon">🎯</div>
+    <h3>EXCELLENCE CENTER</h3>
+    <button>MORE INFO</button>
+  </div>
+
+  <div class="card card5">
+    <div class="icon">🏢</div>
+    <h3>CENTRAL LIBRARY</h3>
+    <button>MORE INFO</button>
+  </div>
+
+</div>
+
+<!-- STUDENT DOUBT ASSISTANT -->
+
+<section class="about-section">
+
+  <div class="about-container">
+
+    <!-- LEFT SIDE -->
+    <div class="about-left">
+      <p class="small-title">WELCOME TO ZEAL COLLEGE OF ENGINEERING & RESEARCH</p>
+
+      <h2>Who We Are</h2>
+
+      <p>
+        ZEAL College of Engineering & Research is a top engineering college in Pune 
+        offering quality education, expert faculty & excellent placements. Established 
+        in 1996 and currently in its 30th year, Since the 2026 We have Started the (OFF CAMPUS) the institute is committed to providing 
+        the best education and future opportunities for students.
+    
+      </p>
+
+      <p class="contact">CALL US 020-67206000</p>
+
+      <button class="btn">VIEW MORE</button>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="about-right">
+  <h3>Latest Happening</h3>
+
+  <div class="scroll-box">
+    <div class="scroll-content">
+
+      <p>Admission Open 2025-26 for B.Tech, Polytechnic, ITI</p>
+
+      <p>Visit of Expert Team from 28th to 30th September, 2026 to evaluate UG Engineering programs</p>
+
+      <p>ZEAL AUTO EXPO 2K26</p>
+
+      <p>Selected Students for Ph.D. Admission (2024–2025)</p>
+
+      <p>Personal Interviews for Ph.D. (All BE.TECH Branch) Admission 2025</p>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div class="cards reveal-left">
+<section class="about-section reveal-bottom">
+<div class="about-right reveal-right">
+
+</section>
+<section class="courses-section reveal-bottom">
+
+  <div class="courses-header">
+    <div>
+      <p class="small-title">GRAB ONE OF</p>
+      <h2>Our Courses</h2>
+      <p class="desc">
+        Our pedagogy is focused on maximizing the learning outcomes of students.
+        We apply unique philosophy to balance continuous evaluation and final exams.
+      </p>
+    </div>
+
+    <button class="view-btn">VIEW ALL COURSES</button>
+  </div>
+
+  <!-- COURSE CARDS -->
+  <div class="course-container">
+
+    <div class="course-card">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.3sU7C8RjwjxlCTw3DmNP1gHaC_?pid=Api&P=0&h=180">
+      <h3>Computer Engineering</h3>
+      <p>Computer Engineering is often recognized as the seed from which all other...</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg">
+      <h3>AI & DS Engineering</h3>
+      <p>The Department of AI & DS Engineering was set up under Zeal College...</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.TZH6_y28RYb41i2yjeuUiwHaC2?pid=Api&P=0&h=180">
+      <h3>Electronics & Computer</h3>
+      <p>The Department of IT focuses on modern technology and innovation...</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://aigintegrators.com/wp-content/uploads/2023/06/telecommunication-tower-with-5g-cellular-network-antenna-city-background-with-global-connection-1536x1024.jpg">
+      <h3>E & TC Engineering</h3>
+      <p>The Electronics and Telecommunication department provides deep knowledge...</p>
+    </div>
+
+  </div>
+
+</section>
+<section class="accreditation-section">
+
+  <h2 class="section-title">Accreditation</h2>
+
+  <div class="accreditation-container">
+
+    <div class="ac-card">
+      <img src="https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_avcdKZx.jpg">
+    </div>
+
+    <div class="ac-card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.GqlPlNk_UcNyOhKSe4ngmQAAAA?pid=Api&P=0&h=180">
+    </div>
+
+    <div class="ac-card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.RyEMX6hd3zok62YnnSaI9wAAAA?pid=Api&P=0&h=180">
+    </div>
+
+    <div class="ac-card">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.4GxI9DBNem4fUFrw3asEXQHaHt?pid=Api&P=0&h=180">
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- STUDENT PACKAGE -->
+<section class="placement-section">
+
+  <h2 class="section-title">OUR Topppers Semister 1</h2>
+  <div class="big-box">
+  <div class="slider-wrapper">
+  <div class="slider-track">
+
+    <!-- ORIGINAL -->
+    <div class="student-card"><img src="https://1.bp.blogspot.com/-j-ERWuBRTuA/YTY_6WB8QZI/AAAAAAAADig/BGAaNkvSSrESO6039J0YxMC_IfgohWZIwCLcBGAsYHQ/s570/Shazim%2Buddin%2Bpp%2Bimage%2Bwith%2Bstroke.jpg" alt=""> <h4>Pranav Raut</h3>
+    <p>Naukri.com,14.75 Lpa</p></div>
+    <div class="student-card"><img src="https://zcoer.in/wp-content/uploads/2021/04/Wadekar.jpg" alt=""></div>
+    <div class="student-card"><img src="https://i.pinimg.com/736x/8c/11/dd/8c11dd4a7110a437722370c4663f80ec.jpg" alt=""></div>
+    <div class="student-card"><img src="https://i.pinimg.com/474x/52/d6/c9/52d6c9815d604af110f7a16675b566fe.jpg" alt=""></div>
+    <div class="student-card"><img src="https://i.pinimg.com/originals/46/88/12/468812df30ab33d9c66397e40be563af.jpg" alt=""></div>
+
+    <!-- DUPLICATE (same again) -->
+    <div class="student-card"><img src="https://www.chitkarauniversity.edu.in/wp-content/uploads/2024/01/Passport-size-photo-Vivek-puri.jpg" alt=""></div>
+    <div class="student-card"><img src="https://tse2.mm.bing.net/th/id/OIP.rszjlgKw4w9c_6igSfkePAHaIK?pid=Api&P=0&h=180" alt=""></div>
+    <div class="student-card"><img src="https://as1.ftcdn.net/jpg/12/26/53/04/1000_F_1226530428_GXvowdFOx09T6PD51vSJDdlpxMnqLzXn.jpg" alt=""></div>
+    <div class="student-card"><img src="https://i.pinimg.com/736x/0b/7c/f4/0b7cf4a74a7d6966ea0c274b46887421.jpg" alt=""></div>
+    <div class="student-card"><img src="http://www.clker.com/cliparts/a/e/c/c/1364125264782739178passport.jpg" alt=""></div>
+   </div>
+   </section>
+   <section class="recruiter-section">
+
+  <h2 class="recruiter-heading">Our Recruiters</h2>
+
+  <div class="recruiter-big-box">
+
+    <div class="recruiter-wrapper">
+      <div class="recruiter-track">
+
+        <!-- ORIGINAL -->
+        <img src="https://ptcgroup.asia/assets/images/1703814502PTC%20Group.png">
+        <img src="https://www.creads.com/wp-content/uploads/2021/05/capgemini.jpg">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.pHPiNEXxyGZwBRvZMGbLRwAAAA?pid=Api&P=0&h=180">
+        <img src="https://www.nttdata.com/global/en/-/media/assets/images/sns_share.png?rev=838cdd2aecbb411b8182c0410f6553ff">
+        <img src="https://ummid.com/news/2020/april/27.04.2020/naukri-job.jpg">
+
+        <!-- DUPLICATE -->
+        <img src="https://media.glassdoor.com/sqll/5112292/futurense-technologies-squareLogo-1632143277880.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg">
+        <img src="https://easyfairsassets.com/sites/266/2023/09/Logo-fuer-easyfairs-Auftritt.png">
+        <img src="https://d13dtqinv406lk.cloudfront.net/company/images/13900.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<div class="gallery-box">
+
+  <a href="ourgallery.html"><h2 class="gallery-title-box">Our Gallery</a></h2>
+
+  <div class="gallery-grid">
+
+    <img src="image13.png" onclick="openImage(this.src)">
+    <img src="image14.png" onclick="openImage(this.src)">
+    <img src="image15.png" onclick="openImage(this.src)">
+    <img src="image16.png" onclick="openImage(this.src)">
+    <img src="image17.png" onclick="openImage(this.src)">
+    <img src="image12.png" onclick="openImage(this.src)">
+
+     <a href="ourgallery.html" style="color: white;"><button class="view-more-btn" style="background-color:  #1f5a85;">View More</a></button>
+  </div>
+
+</div>
+
+<!-- POPUP -->
+
+ <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Get in Touch -->
+    <div class="footer-box">
+      <h3>GET IN TOUCH</h3>
+      <p>📍 Sector 26, Pradhikaran,<br> Nigdi, Pune, 411044</p>
+      <p>📞 +91 - 8087174347</p>
+      <p>✉️ ZCOERadmin@gmail.com</p>
+    </div>
+
+    <!-- Important Links -->
+    <div class="footer-box">
+      <h3>IMPORTANT LINKS</h3>
+      <ul>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Placements</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h3>QUICK LINKS</h3>
+      <ul>
+        <li><a href="#">Examinations</a></li>
+        <li><a href="#">Awards</a></li>
+        <li><a href="#">NIRF</a></li>
+        <li><a href="#">ZCOER</a></li>
+      </ul>
+    </div>
+
+    <!-- Location -->
+    <div class="footer-box">
+      <h3>LOCATION</h3>
+
+      <!-- Clickable Map -->
+       <div class="footer-box">
+  <h3>LOCATION</h3>
+
+  <a href="https://www.google.com/maps/place/Zeal+College+of+Engineering+and+Research,+Induri,+Maval,+Pune" target="_blank">
+    
+    <iframe
+      src="https://www.google.com/maps?q=Zeal+College+of+Engineering+and+Research,+Induri,+Maval,+Pune&output=embed"
+      width="100%"
+      height="150"
+      style="border:0; border-radius:10px;"
+      loading="lazy">
+    </iframe>
+
+  </a>
+</div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© Zeal College Engineering and Research (OFF Campus) Induri </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+function openMenu(){
+  document.getElementById("sidebar").classList.add("active");
+}
+
+function closeMenu(){
+  document.getElementById("sidebar").classList.remove("active");
+}
+</script>
+<script>
+let images = [
+  "image13.png",
+  "image11.png",
+  "image13.png"
+];
+
+let index = 0;
+let slider = document.getElementById("slider");
+
+function changeSlide(newIndex){
+  slider.classList.add("fade-out");
+
+  setTimeout(() => {
+    index = newIndex;
+    slider.src = images[index];
+    slider.classList.remove("fade-out");
+  }, 400);
+}
+
+
+function nextSlide(){
+  let newIndex = (index + 1) % images.length;
+  changeSlide(newIndex);
+}
+
+function prevSlide(){
+  let newIndex = (index - 1 + images.length) % images.length;
+  changeSlide(newIndex);
+}
+
+/* AUTO SLIDE */
+setInterval(nextSlide, 3000);
+</script>
+
+<script>
+function revealOnScroll(){
+  let reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(el => {
+    let windowHeight = window.innerHeight;
+    let elementTop = el.getBoundingClientRect().top;
+
+    let visiblePoint = 100;
+
+    if(elementTop < windowHeight - visiblePoint){
+      el.classList.add("active");
+    }else{
+      el.classList.remove("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+</script>
+<script>
+
+
+function reveal(){
+  let elements = document.querySelectorAll(".reveal-left, .reveal-right, .reveal-bottom");
+
+  elements.forEach(el => {
+    let windowHeight = window.innerHeight;
+    let elementTop = el.getBoundingClientRect().top;
+
+    let visiblePoint = 120;
+
+    if(elementTop < windowHeight - visiblePoint){
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", reveal);
+
+
+</script>
+<script>
+
+let scrollAmount = 0;
+
+function autoSlide(){
+  let cardWidth = 230; // adjust based on design
+  scrollAmount += cardWidth;
+
+  if(scrollAmount >= slider.scrollWidth - slider.clientWidth){
+    scrollAmount = 0;
+  }
+
+  slider.style.transform = `translateX(-${scrollAmount}px)`;
+}
+
+setInterval(autoSlide, 2000); // slide every 2 sec
+</script>
+
+<script>
+function openImage(src){
+  document.getElementById("lightbox").style.display = "flex";
+  document.getElementById("lightbox-img").src = src;
+}
+
+function closeImage(){
+  document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
+
+
+<script>
+document.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", function(e) {
+    if (this.hostname === window.location.hostname) {
+      e.preventDefault();
+      let href = this.href;
+
+      document.body.classList.add("slide-out");
+
+      setTimeout(() => {
+        window.location.href = href;
+      }, 500);
+    }
+  });
+});
+</script>
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
